@@ -1,3 +1,10 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
 @media (min-width:576px) {
     .container {
         width: 54rem;

@@ -1,0 +1,41 @@
+/*start default styles */
+@import url(./variables.css);
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'IRANSans';
+    line-height: 0.16;
+    font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    outline: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 400ms ease-in-out;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+i {
+    user-select: none;
+}
+
+
+/*finish default styles */
