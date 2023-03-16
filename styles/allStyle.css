@@ -1,0 +1,39 @@
+/*start default styles */
+@import url(./variables.css);
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 1.4rem;
+    background-color: var(--body-bgColor);
+    color:var(--white-color);
+    direction: rtl;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    outline: none;
+
+}
+
+a {
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+i {
+    user-select: none;
+}
+
+
+/*finish default styles */

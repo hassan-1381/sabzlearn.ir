@@ -1,4 +1,21 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-family: 'IRANSans-100';
+    src: url('../fonts/IRANSansX-Thin.ttf') format("truetype");
 }
+@font-face {
+    font-family: 'IRANSans-200';
+    src: url('../fonts/IRANSansX-UltraLight.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'IRANSans-400';
+    src: url('../fonts/IRANSansX-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'IRANSans-700';
+    src: url('../fonts/IRANSansX-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'IRANSans-900';
+    src: url('../fonts/IRANSansX-Black.ttf') format("truetype");
+}
+
