@@ -10,9 +10,18 @@ html {
 }
 
 body {
+
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 1.4rem;
+    background-color: var(--body-bgColor);
+    color:var(--white-color);
+    direction: rtl;
+
     font-family: 'IRANSans';
     line-height: 0.16;
     font-size: 1.6rem;
+
 }
 
 *,
@@ -25,12 +34,16 @@ body {
 
 a {
     text-decoration: none;
+
+    transition: all 300ms ease-in-out;
+
     color: var(--dark-color);
     transition: all 400ms ease-in-out;
 }
 
 a:hover {
     color: var(--primary-color);
+
 }
 
 i {
@@ -38,4 +51,8 @@ i {
 }
 
 
+
 /*finish default styles */
+
+/*finish default styles */
+
