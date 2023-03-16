@@ -3,6 +3,7 @@
     src: url('../fonts/IRANSansX-Thin.ttf') format("truetype");
 }
 @font-face {
+
     font-family: 'IRANSans-200';
     src: url('../fonts/IRANSansX-UltraLight.ttf') format("truetype");
 }
@@ -17,5 +18,10 @@
 @font-face {
     font-family: 'IRANSans-900';
     src: url('../fonts/IRANSansX-Black.ttf') format("truetype");
+}
+
+=======
+    font-family: 'IRANSans';
+    src: url('../fonts/IranNastaliq&Help-fontyab.com/IRANSans.ttf');
 }
 
