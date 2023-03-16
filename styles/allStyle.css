@@ -18,10 +18,6 @@ body {
     color:var(--white-color);
     direction: rtl;
 
-    font-family: 'IRANSans';
-    line-height: 0.16;
-    font-size: 1.6rem;
-
 }
 
 *,
@@ -34,11 +30,7 @@ body {
 
 a {
     text-decoration: none;
-
     transition: all 300ms ease-in-out;
-
-    color: var(--dark-color);
-    transition: all 400ms ease-in-out;
 }
 
 a:hover {
@@ -54,5 +46,5 @@ i {
 
 /*finish default styles */
 
-/*finish default styles */
+
 
