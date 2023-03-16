@@ -176,7 +176,7 @@ start header styles
     align-items: center;
     margin: 0 1rem;
     cursor: pointer;
- 
+
 }
 
 .main-header__link {
@@ -246,7 +246,7 @@ start header styles
 .main-header__item:hover .main-header__dropwond {
     opacity: 1;
     visibility: visible;
-    top:6.5rem;
+    top: 6.5rem;
 }
 
 
@@ -265,7 +265,7 @@ start header styles
 /*start searchbox styles */
 
 .main-header__search {
-    background-color: var(--dark-color);
+    background-color: hsla(0,0%,100%,.2);
     border-radius: 10rem;
     overflow: hidden;
 }
@@ -395,6 +395,90 @@ start header styles
     height: 100%;
 }
 
+
+
+
 /*finish main-header__left styles */
 
 /*finish main-heade styles */
+
+
+/*start landing styles */
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing__conteant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto;
+    width: 45%;
+}
+
+.landing-header__titele {
+    font-size: 2.3rem;
+    font-family: 'IRANSans-400';
+    margin-bottom: 3.16rem;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.landing-header__search {
+    background-color: hsla(0,0%,100%,.2);
+    width: 100%;
+    padding: 1rem;
+    border-radius:10rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+
+}
+
+.landing-header__serchbox {
+    background-color:initial;
+    width:95%;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+    color: var(--white-color);
+    font-family: 'IRANSans-400';
+  
+}
+
+
+
+.landing-header_serch--icon {
+
+    color: var(--white-color);
+    font-weight: bolder;
+    font-size: 2.8rem;
+    background-color:initial;
+}
+
+.landing-header__down {
+    margin-top: 6rem;
+
+}
+
+.landing--down {
+    font-size: 3.5rem;
+    color:  hsla(0, 0%, 100%, 0.568);
+}
+
+
+/*finish landing styles */
