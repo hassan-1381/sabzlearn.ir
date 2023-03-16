@@ -37,20 +37,15 @@ a {
 
 
     transition: all 300ms ease-in-out;
-
-    color: var(--dark-color);
-    transition: all 400ms ease-in-out;
 }
 
 a:hover {
     color: var(--primary-color);
-
 }
 
 i {
     user-select: none;
 }
-
 
 /*finish default styles */
 .header {
@@ -60,6 +55,75 @@ i {
     background-size: cover;
 
 }
+/*
+==========
+start header styles
+==========
+*/
+
+.header{
+}
+
+/*start top header styles */
+.top-header{
+    background:rgba(0,0,0,0.14);
+    min-height: 3rem;
+    line-height: 3rem;
+}
+.top-header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header__menu{
+    display: flex;
+}
+.top-header__menu-item{
+    margin:0 0.7rem
+}
+.top-header__menu-item:first-child{
+    margin-right:0
+}
+.top-header__menu-item:last-child{
+    margin-left:0
+}
+.top-header__menu-link{
+    color:hsla(0,0%,100%,0.8);
+    font-size: 1.3rem;
+    font-family:'IRANSans-400';
+}
+.top-header__menu-link:hover{
+    color:var(--white-color);
+}
+.top-header__social-infos{
+    display: flex;
+    align-items: center;
+}
+.top-header__gmail{
+    font-family:'IRANSans-900';
+}
+.top-header__social-icons{
+    display: flex;
+    margin-right: 0.7rem;
+    align-items: center;
+}
+.top-header__social-icons__link{
+    margin: 0 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-header-social-icons__img{
+    width:1.2rem;
+    height: 1.2rem;
+}
+/*finish top header styles */
+
+/*
+==========
+finish header styles
+==========
+*/
 
 
 
