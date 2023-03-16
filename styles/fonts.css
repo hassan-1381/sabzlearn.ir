@@ -20,7 +20,7 @@
     src: url('../fonts/IRANSansX-Black.ttf') format("truetype");
 }
 
-=======
+@font-face{
     font-family: 'IRANSans';
     src: url('../fonts/IranNastaliq&Help-fontyab.com/IRANSans.ttf');
 }
