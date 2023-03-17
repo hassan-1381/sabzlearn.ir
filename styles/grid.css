@@ -1,6 +1,7 @@
 .container {
     margin:0 auto;
     padding: 0 15px;
+    
 }
 
 /* 
@@ -301,6 +302,7 @@
 @media (min-width:1200px) {
     .container {
         width: 117rem;
+        
      
     }
 
@@ -369,8 +371,6 @@
 @media (min-width:1400px) {
     .container {
         width: 137rem;
-        margin: 0 25rem;
-
     }
 
     .col-xxl-1 {
@@ -437,9 +437,6 @@
 @media (min-width:1600px) {
     .container {
         width: 157rem;
-
-
-
     }
 
 }
