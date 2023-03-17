@@ -62,9 +62,11 @@ start header styles
 
 /*start top header styles */
 .top-header {
-    background: rgba(0, 0, 0, 0.14);
-    min-height: 3rem;
-    line-height: 3rem;
+     background: rgba(0, 0, 0, 0.14);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1rem 0;
 }
 
 .top-header__wrapper {
@@ -75,6 +77,7 @@ start header styles
 
 .top-header__menu {
     display: flex;
+    align-items: center;
 }
 
 .top-header__menu-item {
