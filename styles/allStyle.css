@@ -533,10 +533,10 @@ start header styles
 .courses__conten {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem ;
 
 }
 
@@ -549,7 +549,6 @@ start header styles
     background-color: #2F3041;
     overflow: hidden;
     border-radius: 1rem;
-
 }
 
 .courses__img--content {

@@ -371,6 +371,7 @@
 @media (min-width:1400px) {
     .container {
         width: 137rem;
+        padding:0 250px;
     }
 
     .col-xxl-1 {
